@@ -1,0 +1,67 @@
+<canvas id="pattern-placeholder" height="230"></canvas>
+<div class="navbar-header">
+  <a class="blog-title" href="<%= config.root %>"><%= config.title %></a>
+  <a class="face-img" href="<%= config.root %>">
+    <img src="<%=theme.avatar%>">
+  </a>
+</div>
+<main>
+  <div class="article-title">
+    <%- partial('_partial/post/title') %>
+    <ul class="article-info">
+      <li>
+        Posted on
+        <%- partial('post/date') %>
+      </li>
+      <li>
+        <%- partial('post/updated') %>
+      </li>
+      <li id="busuanzi_container_page_pv">
+        Read <span id="busuanzi_value_page_pv"></span>
+      </li>
+    </ul>
+  </div>
+  <div class="container">
+    <div class="article">
+      <div class="content">
+        <%- post.content %>
+      </div>
+        <div class="support-author">
+          <p>Author by Spitfire Media
+            <!--<a class="btn-pay"  href="#pay-modal">¥ 打赏支持</a>-->
+          </p>
+        </div>
+        <!--
+            <div class="like ">
+              <div class="like-button">
+                <a id="like-note" href="">
+                  <i class="icon-heart"></i>喜欢
+                </a>
+              </div>
+              <span id="likes-count">256</span>
+            </div>
+        -->
+        <div class="otherLink">
+				<%- partial('post/nav') %>
+        </div>
+        <div class="comments" id="comments">
+          <%- partial('post/comments') %>
+        </div>
+      </div>
+    </div>
+   </div>
+</main>
+
+<div class="footer">
+  <div class="info">
+	<p>&copy;<%= theme.copyright_date %></p>
+    <p>
+    Powered by <a href="<%= config.root %>"> Spitfire Media </a> | Theme by Spitfire Media
+	</p>
+  </div>
+</div>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<% if (post.mathjax){ %>
+  <%- partial('_partial/post/mathjax') %>
+<% } %>
+<%- partial('script.ejs') %>
