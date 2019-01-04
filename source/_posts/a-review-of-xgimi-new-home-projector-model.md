@@ -6,7 +6,7 @@ category: big screen
 
 ### Xgimi H2 Global Version Unboxing
 
-XGIMI, a famous Chinese manufacturer of home projectors, recently released a new global projector model, H2 screenless TV. I heard about XGIMI H2 projector included Android operating system and the effect of listening to the Harman Kardon sound from one tiny box. So, on Black Friday, I bought the XGIMI H2 [home projector] (https://www.xgimi.com/en/H2-immersive-home-projector.html) on its official website. Through this article, you will come to know my actual feedback on the latest projector model of XGIMI.
+XGIMI, a famous Chinese manufacturer of home projectors, recently released a new global projector model, H2 screenless TV. I heard about XGIMI H2 projector included Android operating system and the effect of listening to the Harman Kardon sound from one tiny box. So, on Black Friday, I bought the XGIMI H2 [home projector](https://www.xgimi.com/en/H2-immersive-home-projector.html) on its official website. Through this article, you will come to know my actual feedback on the latest projector model of XGIMI.
 
 #### Unboxing
 
